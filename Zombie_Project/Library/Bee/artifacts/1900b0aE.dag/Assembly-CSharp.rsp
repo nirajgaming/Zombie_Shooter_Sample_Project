@@ -365,6 +365,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/TutorialInfo/Scripts/Readme.cs"
+"Assets/_Zombie_Project/_Scripts/_Base/Singleton.cs"
+"Assets/_Zombie_Project/_Scripts/_Managers/EnemyManager.cs"
+"Assets/_Zombie_Project/_Scripts/_Managers/EventManager.cs"
+"Assets/_Zombie_Project/_Scripts/_Managers/SoundManager.cs"
+"Assets/_Zombie_Project/_Scripts/_Managers/SpawnManager.cs"
+"Assets/_Zombie_Project/_Scripts/_Managers/UIManager.cs"
 -langversion:9.0
 
 /deterministic
