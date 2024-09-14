@@ -376,6 +376,11 @@
 "Assets/_Zombie_Project/_Scripts/_Player/PlayerController.cs"
 "Assets/_Zombie_Project/_Scripts/_Player/PlayerModel.cs"
 "Assets/_Zombie_Project/_Scripts/_Player/PlayerView.cs"
+"Assets/_Zombie_Project/_Scripts/_Weapon/Bullet.cs"
+"Assets/_Zombie_Project/_Scripts/_Weapon/IWeapon.cs"
+"Assets/_Zombie_Project/_Scripts/_Weapon/RangedWeapon.cs"
+"Assets/_Zombie_Project/_Scripts/_Weapon/WeaponController.cs"
+"Assets/_Zombie_Project/_Scripts/_Weapon/WeaponView.cs"
 -langversion:9.0
 
 /deterministic

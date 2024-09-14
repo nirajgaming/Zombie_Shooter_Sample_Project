@@ -15,7 +15,7 @@ E:/PersonalProjects/Book/Zombie_Shooter/Zombie_Shooter_Sample_Project/Zombie_Pro
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52026
+64400
 Successfully changed project path to: E:/PersonalProjects/Book/Zombie_Shooter/Zombie_Shooter_Sample_Project/Zombie_Project
 E:/PersonalProjects/Book/Zombie_Shooter/Zombie_Shooter_Sample_Project/Zombie_Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/PersonalProjects/Book/Zombie_Shooter/Zombie_Shooter_Sample_Project/Zombie_Pro
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [53216] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 4287058364 [EditorId] 4287058364 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IADSMOJU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29304] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 1450379687 [EditorId] 1450379687 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IADSMOJU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [53216] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 4287058364 [EditorId] 4287058364 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IADSMOJU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29304] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 1450379687 [EditorId] 1450379687 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IADSMOJU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 10.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -75,42 +75,42 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013796 seconds.
-- Loaded All Assemblies, in  0.484 seconds
+Registered in 0.018786 seconds.
+- Loaded All Assemblies, in  0.469 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 387 ms
+Android Extension - Scanning For ADB Devices 367 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.810 seconds
-Domain Reload Profiling: 1291ms
-	BeginReloadAssembly (142ms)
+- Finished resetting the current domain, in  0.887 seconds
+Domain Reload Profiling: 1353ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (198ms)
-		LoadAssemblies (139ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (127ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (194ms)
-				TypeCache.ScanAssembly (176ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (811ms)
+	FinalizeReload (888ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (735ms)
+		SetupLoadedEditorAssemblies (816ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (533ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (491ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (134ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 1291ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.657 seconds
-Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.861 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.867 seconds
-Domain Reload Profiling: 1522ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  1.227 seconds
+Domain Reload Profiling: 2085ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (427ms)
-		LoadAssemblies (296ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (578ms)
+		LoadAssemblies (424ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (209ms)
-			TypeCache.Refresh (181ms)
-				TypeCache.ScanAssembly (160ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (867ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (194ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1228ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (719ms)
+		SetupLoadedEditorAssemblies (1033ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (561ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (814ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
 			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5301 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (350.5 KB). Loaded Objects now: 5764.
-Memory consumption went from 208.4 MB to 208.1 MB.
-Total: 5.384100 ms (FindLiveObjects: 0.538300 ms CreateObjectMapping: 0.156500 ms MarkObjects: 4.471100 ms  DeleteObjects: 0.217000 ms)
+Unloading 5303 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (351.4 KB). Loaded Objects now: 5766.
+Memory consumption went from 208.5 MB to 208.1 MB.
+Total: 5.755500 ms (FindLiveObjects: 0.524100 ms CreateObjectMapping: 0.290200 ms MarkObjects: 4.587500 ms  DeleteObjects: 0.352500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,361 +185,140 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 541600.148871 seconds.
-  path: Assets/_Zombie_Project/_Input
-  artifactKey: Guid(58a00ebc12ab9224a83e3b5e140a7401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input using Guid(58a00ebc12ab9224a83e3b5e140a7401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6512322696d2a5cadffca808b58fb97f') in 0.002149 seconds
+  Time since last request: 598678.783145 seconds.
+  path: Assets/_Zombie_Project/_Scripts/_Weapon
+  artifactKey: Guid(4c35271db72ca0647a58ff9aadbbfddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Zombie_Project/_Scripts/_Weapon using Guid(4c35271db72ca0647a58ff9aadbbfddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf23273f33c66956b7c97a991847c3c') in 0.003085 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 14.182486 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ace3bea1a78e7f7e8e94996324a09b4') in 0.010217 seconds
+  Time since last request: 25.660912 seconds.
+  path: Assets/_Zombie_Project/_Scripts/_Weapon/IWeapon.cs
+  artifactKey: Guid(956b91d2006f6634592c8e0adfb227b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Zombie_Project/_Scripts/_Weapon/IWeapon.cs using Guid(956b91d2006f6634592c8e0adfb227b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9f9f5786e990c9db2f1edd8a021fdc') in 0.000572 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 239.819748 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36a276e32ab5ea8f32f875ae88628c6') in 0.002321 seconds
+  Time since last request: 1809.297834 seconds.
+  path: Assets/_Zombie_Project/_Scripts/_Weapon/IWeapon.cs
+  artifactKey: Guid(956b91d2006f6634592c8e0adfb227b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Zombie_Project/_Scripts/_Weapon/IWeapon.cs using Guid(956b91d2006f6634592c8e0adfb227b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b458e70f12086742527914fb29b420a') in 0.001257 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.739443 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c8b25d81a7c315d70c9b30cf31e29e') in 0.001339 seconds
+  Time since last request: 10.376604 seconds.
+  path: Assets/_Zombie_Project/_Scripts/_Weapon/RangedWeapon.cs
+  artifactKey: Guid(31932b2ea1031294da9785be24300924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Zombie_Project/_Scripts/_Weapon/RangedWeapon.cs using Guid(31932b2ea1031294da9785be24300924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0160b3b34aab3f735f12b5ba83f5627e') in 0.000521 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 85.990268 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798f07854f4c2366661dec0a1bbf44d2') in 0.001525 seconds
+  Time since last request: 55.808682 seconds.
+  path: Assets/_Zombie_Project/_Scripts/_Weapon/RangedWeapon.cs
+  artifactKey: Guid(31932b2ea1031294da9785be24300924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Zombie_Project/_Scripts/_Weapon/RangedWeapon.cs using Guid(31932b2ea1031294da9785be24300924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4466b120737325539482ced1c7e82cf') in 0.001062 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.671182 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdd384da74673f447ea580288ecc1ab') in 0.001414 seconds
+  Time since last request: 2191.716987 seconds.
+  path: Assets/_Zombie_Project/_Scripts/_Weapon/RangedWeapon.cs
+  artifactKey: Guid(31932b2ea1031294da9785be24300924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Zombie_Project/_Scripts/_Weapon/RangedWeapon.cs using Guid(31932b2ea1031294da9785be24300924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638395835a0fd53903af6a17737a27a9') in 0.004046 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.424494 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07400d6961c063c9c8f8e76e59aa5011') in 0.001468 seconds
+  Time since last request: 8.310308 seconds.
+  path: Assets/_Zombie_Project/_Scripts/_Weapon/Bullet.cs
+  artifactKey: Guid(7ab5b2b1af3bf314391d8fc57e4361c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Zombie_Project/_Scripts/_Weapon/Bullet.cs using Guid(7ab5b2b1af3bf314391d8fc57e4361c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a596906e3a8e67d582fa17c79174a58') in 0.000834 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.464029 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9369e641a0eac3fa7ed6f48aa9765f72') in 0.001467 seconds
+  Time since last request: 977.509950 seconds.
+  path: Assets/_Zombie_Project/_Scripts/_Weapon/Bullet.cs
+  artifactKey: Guid(7ab5b2b1af3bf314391d8fc57e4361c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Zombie_Project/_Scripts/_Weapon/Bullet.cs using Guid(7ab5b2b1af3bf314391d8fc57e4361c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb4ee9d8b6f3c72d4623931fa16214a') in 0.001609 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.955 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.168 seconds
+Domain Reload Profiling: 3120ms
+	BeginReloadAssembly (413ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (188ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (445ms)
+		LoadAssemblies (523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (61ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2169ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (725ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (558ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5153 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (318.6 KB). Loaded Objects now: 5773.
+Memory consumption went from 182.0 MB to 181.7 MB.
+Total: 5.886800 ms (FindLiveObjects: 0.516100 ms CreateObjectMapping: 0.266900 ms MarkObjects: 4.883600 ms  DeleteObjects: 0.219200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.503429 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c375221293a011ab5e8d41933262e5') in 0.001374 seconds
+  Time since last request: 237.268760 seconds.
+  path: Assets/_Zombie_Project/_Prefabs/Bullet.prefab
+  artifactKey: Guid(cb4e72ce92d8a2243991b9173d682457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Zombie_Project/_Prefabs/Bullet.prefab using Guid(cb4e72ce92d8a2243991b9173d682457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62ce0dce0db63e7695b02f32e0ae51e') in 1.310356 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 11.360050 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fe16957137b4544020f7ef48d27026') in 0.001488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.956348 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31aeb82735d6e34ac034dd2d6491bf9') in 0.001506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 10.691465 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8b5da77b3c506c0585713aa8208fe7') in 0.001209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.860000 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e419348350c8514dc0871e0539b0c3') in 0.001405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 12.174689 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f90f11b50eac144614edb8e9a889348') in 0.001342 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.031937 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafa0f6f86eecfb261842905898c2938') in 0.001261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.856588 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65fd9984c1e5ebfbea490c763b115fa') in 0.001436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 15.384721 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66237e8f078a286bb65fbd75d79cc89') in 0.001513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 14.941178 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2ee9b8844be02396ff78f6b6efcf0f') in 0.001659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 7.087573 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8181f906b82db6f63235b6d1ff8646ba') in 0.001380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.452618 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400e3df17d5a4b7e423c20393476a45e') in 0.001370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 809.121447 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db15c3aa6b07d5f99fb3a9d4f6236f48') in 0.004508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 51.145562 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6c290b5fadd83b856ec4538700c0b9') in 0.004188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.953803 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d254e6e487315d4520e3f1245c4d8d') in 0.004659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 9.322770 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1974318e4951b8da8e49d6c19c6a44f9') in 0.004426 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.733204 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b17b79fe05b5436a7816ffab4895c0b') in 0.004504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3980.848688 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814d01496707dee91fd8c4418150934d') in 0.013697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.311995 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6420d38bc0ef8a1232490e8810e6812c') in 0.003348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.815495 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3194b136aee7d6f37c0bb61b5148f93a') in 0.004972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.789379 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412349a8c4f4facb884cf39ffbc27646') in 0.004346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 343.077673 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8ae9752687b85a66177f6e077fb20f') in 0.005424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 22.233026 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d63379e51db71f22390c03ea63e499a') in 0.004334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 12.092241 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42aa05a0c39a18f0876f453f16f8e2f5') in 0.005073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 197.101382 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97efcc8543536a8b17d13e117f417df') in 0.003828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 1.971739 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8570c9efb31e4488baff6b0c29d488d') in 0.006653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 10.000237 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6e624a3389acf8043a65a841532bb5') in 0.004664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 47.580455 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecde98621748de0da1e2f8d1926f683f') in 0.004616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 11.062591 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb5d47fa6247755469cb333543dea55') in 0.004570 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 2.311366 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce5b717cbd197b4ebfcc64fb74890b5') in 0.004557 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.614108 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a1a42a2c5461618b490a27cfd8a2f5') in 0.003488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 537.064856 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09dfca1435cc00ae969a1439206558d') in 0.006018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 3.773631 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2360b9447f00691f03afa98d17dafce') in 0.005614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 7.757547 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689a7053d6c11c175d34f917f626dd4a') in 0.005522 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 1113.239476 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11243f4490a54520255065e47c6d5f79') in 0.003647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 6.615045 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8680826a6116727a17a24fd8a2508f8d') in 0.004001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 6.555150 seconds.
-  path: Assets/_Zombie_Project/_Input/ProjectInput.inputactions
-  artifactKey: Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Zombie_Project/_Input/ProjectInput.inputactions using Guid(fefc14123337e0b46b14bf5874f881a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288938e1915be5ee8deba06cecfb4ad0') in 0.003592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 28
