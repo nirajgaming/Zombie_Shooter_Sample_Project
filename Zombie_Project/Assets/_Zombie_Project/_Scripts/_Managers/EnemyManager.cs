@@ -5,8 +5,6 @@ using UnityEngine;
 public class EnemyManager : Singleton<EnemyManager>
 {
     public Transform[] SpawnPoints;
-    public GameObject normalZombiePrefab;
-    public GameObject bossZombiePrefab;
     public int bossZombieInterval = 5;
     private int normalZombieCount = 0;
 
